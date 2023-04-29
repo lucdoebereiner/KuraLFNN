@@ -121,9 +121,11 @@ Routine({
 
 ~mag.plot
 
-// training
+// Training
 
 // python server
+// python main_tf.py -s 200 -i 200 -o 7 -d 4 -lr 1 -b 32
+
 ~nn = NetAddr.new("127.0.0.1", 1337);
 
 (
